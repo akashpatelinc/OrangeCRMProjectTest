@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="OrangeHRMTests">
+  
+  <listeners>
+		<listener class-name="ExtentReportListner.ExtentReportNG" />
+	</listeners>
+  
+    <classes>
+      <class name="OrangeTestsPackage.MainLoginPageTest"/>
+      <!-- <class name="OrangeTestsPackage.DashboardPageTest"/>
+      <class name="OrangeTestsPackage.ProductInfoManagementTest"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
